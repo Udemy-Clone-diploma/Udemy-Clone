@@ -1,8 +1,6 @@
-# Backend — Udemy Clone
+# Udemy Clone
 
-Backend проекта на **Django + Django REST Framework**
-Конфигурация переменных окружения через **python-decouple**.
-
+# 1.Backend:
 ## Требования
 
 Перед запуском убедитесь, что у вас установлены:
