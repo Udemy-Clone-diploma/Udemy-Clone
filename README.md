@@ -21,7 +21,7 @@ git --version
 
 ```bash
 git clone <URL_ВАШЕГО_РЕПОЗИТОРИЯ>
-cd UDEMY-CLONE/Backend
+cd ./backend
 ```
 
 ## 2. Создание и активация виртуального окружения
@@ -35,7 +35,7 @@ python3 -m venv venv
 ### Активировать виртуальное окружение
 
 ```bash
-source venv/bin/activate
+./venv/Scripts/activate
 ```
 
 После активации в терминале должно появиться:
@@ -70,11 +70,10 @@ nano .env
 или откройте файл в VS Code.
 
 ## 5. Пример `.env`
-
 ```env
 DEBUG=True
-SECRET_KEY=your-secret-key
-ALLOWED_HOSTS=127.0.0.1,localhost
+SECRET_KEY=your-secret-key - взять из файла backend/config/settings.py - в начале где-то будет строка с кодом, скопировать его и без кавычек и пробелов перед и после равно вставить в .env  
+ALLOWED_HOSTS=127.0.0.1,localhost - пока не прописываем
 ```
 
 ## 6. Применение миграций
