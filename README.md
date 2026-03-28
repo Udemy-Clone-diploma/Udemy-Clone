@@ -130,49 +130,48 @@ python manage.py runserver
 * каждый разработчик создаёт свой `.env`
 
 ## Используемые технологии
-
+```
 * Django
 * Django REST Framework
 * python-decouple
 
-# Python
-
+## файл .gitignore
+### # Python
 **pycache**/
 *.py[cod]
 *.pyo
 *.pyd
 
-# Virtual environment
+### # Virtual environment
 
 venv/
-.env/
 
-# Environment variables
+### # Environment variables
 
 .env
 
-# Django
+### # Django
 
 db.sqlite3
 *.log
 media/
 staticfiles/
 
-# Migrations cache
+### # Migrations cache
 
 **/**pycache**/
 
-# IDE
+### # IDE
 
 .vscode/
 .idea/
 
-# OS files
+### # OS files
 
 .DS_Store
 Thumbs.db
 
-# Pytest / coverage
+### # Pytest / coverage
 
 .pytest_cache/
 .coverage
@@ -182,12 +181,12 @@ htmlcov/
 
 .mypy_cache/
 
-# Build
+### # Build
 
 dist/
 build/
 *.egg-info/
 
-# Docker
+### # Docker
 
-*.pid
+*.pid```
