@@ -134,3 +134,60 @@ python manage.py runserver
 * Django
 * Django REST Framework
 * python-decouple
+
+# Python
+
+**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+
+venv/
+.env/
+
+# Environment variables
+
+.env
+
+# Django
+
+db.sqlite3
+*.log
+media/
+staticfiles/
+
+# Migrations cache
+
+**/**pycache**/
+
+# IDE
+
+.vscode/
+.idea/
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Pytest / coverage
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+
+.mypy_cache/
+
+# Build
+
+dist/
+build/
+*.egg-info/
+
+# Docker
+
+*.pid
