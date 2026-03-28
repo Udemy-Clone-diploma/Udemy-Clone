@@ -188,3 +188,56 @@ build/
 
 *.pid
 ```
+
+2. Frontend
+Требования
+
+Перед запуском убедитесь, что установлены:
+```bash
+Node.js 20+
+npm
+```
+Проверка версий
+```bash
+node -v
+npm -v
+```
+
+Создание frontend проекта
+
+Из корня проекта выполните:
+```bash
+npx create-next-app@latest frontend
+При создании выбрать:
+Yes, use recommended defaults
+```
+
+Это автоматически подключит:
+```cmd
+TypeScript
+ESLint
+Tailwind CSS
+App Router
+```
+После создания перейти в frontend
+```cmd
+cd frontend
+```
+Запуск frontend
+```cmd
+npm run dev
+```
+Frontend будет доступен по адресу:
+
+http://localhost:3000
+ 
+### Важно
+
+##### node_modules не коммитится в git.
+
+### После pull каждый разработчик должен выполнить:
+```bash
+cd frontend
+npm install
+```
+ 
